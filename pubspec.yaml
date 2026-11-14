@@ -1,0 +1,26 @@
+name: ma_premiere_app
+description: "TP 01 — Ma première app Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=3.0.0 <7.0.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/avatar1.png
+
+  # Les images seront déclarées ici au TP 02 (étape 7) :
+  # assets:
+  #   - assets/images/avatar1.png
